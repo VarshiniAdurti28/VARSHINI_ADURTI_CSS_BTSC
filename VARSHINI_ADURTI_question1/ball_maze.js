@@ -14,5 +14,5 @@ resume.addEventListener('click', ()=>{
 start.addEventListener('click', ()=>{
   ball_path.style.animationName="none";
   setTimeout(()=>{
-    ball_path.style.animationName="move";}, 100);
+    ball_path.style.animationName="move";}, 200);
   })
